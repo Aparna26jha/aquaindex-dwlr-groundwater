@@ -1,0 +1,73 @@
+@import 'tailwindcss';
+
+:root {
+  --ink: #e7f1ee;
+  --muted: #8aa4a0;
+  --bg: #0b1615;
+  --panel: #12211f;
+  --line: #243836;
+  --teal: #3dba9a;
+  --sand: #d4b45a;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+}
+
+h1,
+h2,
+.serif {
+  font-family: Fraunces, Georgia, serif;
+}
+
+.mono {
+  font-family: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+.leaflet-container {
+  background: #0d1c1a;
+  font-family: inherit;
+  width: 100%;
+  height: 100%;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: #12211f;
+  color: #e7f1ee;
+  border: 1px solid #243836;
+  box-shadow: none;
+}
+
+.leaflet-control-zoom a {
+  background: #12211f !important;
+  color: #e7f1ee !important;
+  border-color: #243836 !important;
+}
+
+.leaflet-bar {
+  border: 1px solid #243836 !important;
+}
+
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: #243836;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #2d4a46;
+  border-radius: 8px;
+}
