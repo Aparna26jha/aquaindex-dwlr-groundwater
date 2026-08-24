@@ -250,8 +250,3 @@ Optionally add `VITE_GEMINI_API_KEY` under Project → Settings → Environment 
 
 [3] IEEE Standard for Sensor Data Middleware and Analytics, IEEE Std 2510-2021.
 
----
-
-## License
-
-Released for academic evaluation as a 2025–26 CSE final-year prototype. Not an operational warning or regulatory assessment system.
